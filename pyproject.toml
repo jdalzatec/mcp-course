@@ -7,7 +7,7 @@ requires-python = ">=3.13"
 dependencies = [
     "fastmcp>=2.10.5",
     "gradio[mcp]>=5.30.0",
-    "huggingface-hub[mcp]>=0.32.0",
+    "huggingface-hub[cli,mcp]>=0.32.0",
     "mcp[cli]>=1.12.0",
     "smolagents[litellm,mcp]>=1.20.0",
 ]

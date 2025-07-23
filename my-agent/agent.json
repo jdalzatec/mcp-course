@@ -1,0 +1,14 @@
+{
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "provider": "nebius",
+    "servers": [
+        {
+            "type": "sse",
+            "url": "https://abidlabs-mcp-tool-http.hf.space/gradio_api/mcp/sse"
+        },
+        {
+            "type": "sse",
+            "url": "https://jdalzatec-mcp-sentiment.hf.space/gradio_api/mcp/sse"
+        }
+    ]
+}
